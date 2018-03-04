@@ -16,8 +16,9 @@ MFRC522::MIFARE_Key key;
 
 // WiFi
 #include <ESP8266WiFi.h>
-const char* ssid = "Bia&CAIO!";
-const char* password = "pipoca71";
+//Substituir abaixo:
+const char* ssid = "SSID_DO_WIFI";
+const char* password = "SENHA_WIFI";
 WiFiClient nodeMCUWiFi;
 
 // MQTT
